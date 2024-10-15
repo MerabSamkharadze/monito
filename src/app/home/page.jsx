@@ -2,8 +2,7 @@ import Image from "next/image";
 import banner from "@/public/images/banner.jpg";
 import Heading from "@/components/Heading";
 import Button from "@/components/Button";
-import Card from "@/components/Card";
-import dogimg from "@/public/images/dog.jpg";
+import CardsList from "@/components/CardsList";
 
 export default function page() {
   return (
@@ -41,8 +40,8 @@ export default function page() {
           h1={"Take a look at some of our pets"}
         />
       </section>
-      <section className="ml-32">
-        {/* <Card imgSrc={dogimg} sex={"male"} age={"3 month"} /> */}
+      <section className="ml-32 mr-32">
+        <CardsList />
       </section>
     </>
   );
