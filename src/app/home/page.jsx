@@ -3,6 +3,7 @@ import banner from "@/public/images/banner.jpg";
 import Heading from "@/components/Heading";
 import Button from "@/components/Button";
 import CardsList from "@/components/CardsList";
+import ProductsList from "@/components/ProductsList";
 import Banner from "@/components/Banner";
 
 export default function page() {
@@ -46,6 +47,16 @@ export default function page() {
       </section>
       <section className="ml-32 mr-32 mt-8  ">
         <Banner />
+      </section>
+      <section>
+        <Heading
+          btn_content={"View more"}
+          h2={"Hard to choose right products for your pets?"}
+          h1={"Our Products"}
+        />
+      </section>
+      <section className="ml-32 mr-32 mt-8">
+        <ProductsList />
       </section>
     </>
   );

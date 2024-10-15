@@ -4,7 +4,7 @@ import dogimg from "@/public/images/dog.jpg";
 
 export default function Card({ name, sex, age }) {
   return (
-    <div className=" bg-white w-72 h-96 rounded-xl p-2 font-semibold shadow-lg">
+    <div className=" bg-white w-72 h-96 rounded-xl p-2 font-semibold shadow-lg overflow-hidden transition-transform transform hover:scale-105 cursor-pointer">
       <Image src={dogimg} alt="dog-img" width={270} height={264} />
       <h3 className="mt-4">{name}</h3>
       <p className="text-grey flex items-center gap-3 text-xs">

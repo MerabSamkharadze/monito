@@ -13,6 +13,7 @@ module.exports = {
         primary: "#003459",
         white: "#FDFDFD",
         grey: "#667479",
+        primarybg: "#FCEED5",
       },
     },
   },
