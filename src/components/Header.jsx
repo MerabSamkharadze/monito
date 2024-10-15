@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function Header() {
   return (
-    <header className=" flex items-center justify-between py-8 px-32 w-full h-10 bg-transparent absolute z-50">
+    <header className=" flex items-center justify-between py-16 px-32 w-full h-10 bg-transparent absolute top-0 left-0 z-50">
       <nav className="flex justify-between items-center w-[28rem]">
         <Link href={"/"}>
           <Image
