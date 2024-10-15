@@ -1,12 +1,18 @@
 import Image from "next/image";
-import banner from "@/public/images/banner.png";
+import banner from "@/public/images/banner.jpg";
 import Heading from "@/components/Heading";
 
 export default function page() {
   return (
     <>
       <section>
-        <Image src={banner} alt="banner" width={1440} height={695} />
+        <Image
+          src={banner}
+          alt="banner"
+          width={1440}
+          height={695}
+          className="rounded-bl-[45px] rounded-br-[45px]"
+        />
       </section>
       <section>
         <Heading

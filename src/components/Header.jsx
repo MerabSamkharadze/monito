@@ -17,13 +17,13 @@ export default function Header() {
           />
         </Link>
 
-        <Link className=" cursor-pointer text-indigo-900" href={"/home"}>
+        <Link className=" cursor-pointer text-primary" href={"/home"}>
           Home
         </Link>
-        <Link className=" cursor-pointer text-indigo-900" href={"/category"}>
+        <Link className=" cursor-pointer text-primary" href={"/category"}>
           Category
         </Link>
-        <Link className=" cursor-pointer text-indigo-900" href={"/contact"}>
+        <Link className=" cursor-pointer text-primary" href={"/contact"}>
           Contact
         </Link>
       </nav>
