@@ -5,6 +5,7 @@ import Button from "@/components/Button";
 import CardsList from "@/components/CardsList";
 import ProductsList from "@/components/ProductsList";
 import Banner from "@/components/Banner";
+import brands from "@/public/images/brands_bn.jpg";
 
 export default function page() {
   return (
@@ -57,6 +58,22 @@ export default function page() {
       </section>
       <section className="ml-32 mr-32 mt-8">
         <ProductsList />
+      </section>
+      <section>
+        <Heading
+          btn_content={"View all our sellers"}
+          h2={"Proud to be part of"}
+          h1={"Pet Sellers"}
+        />
+      </section>
+      <section className="ml-32 mr-32 mt-8  ">
+        <Image
+          src={brands}
+          alt="brends banner"
+          width={1180}
+          height={112}
+          className=" rounded-2xl"
+        />
       </section>
     </>
   );
