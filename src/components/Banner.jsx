@@ -1,8 +1,8 @@
 import Image from "next/image";
-import banner2 from "@/public/images/banner2.jpg";
+
 import Button from "@/components/Button";
 
-export default function Banner() {
+export default function Banner({ src }) {
   return (
     <div className="rounded-3xl relative overflow-hidden">
       <div className="absolute top-16 right-16 z-10 max-w-md text-end ">
@@ -23,7 +23,7 @@ export default function Banner() {
         </div>
       </div>
       <Image
-        src={banner2}
+        src={src}
         alt="banner-2-img"
         width={1180}
         height={378}

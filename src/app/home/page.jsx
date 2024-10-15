@@ -1,11 +1,16 @@
 import Image from "next/image";
-import banner from "@/public/images/banner.jpg";
+
+//components
 import Heading from "@/components/Heading";
 import Button from "@/components/Button";
 import CardsList from "@/components/CardsList";
 import ProductsList from "@/components/ProductsList";
 import Banner from "@/components/Banner";
 import brands from "@/public/images/brands_bn.jpg";
+//images
+import banner from "@/public/images/banner.jpg";
+import banner2 from "@/public/images/banner2.jpg";
+import banner3 from "@/public/images/banner3.jpg";
 
 export default function page() {
   return (
@@ -47,7 +52,7 @@ export default function page() {
         <CardsList />
       </section>
       <section className="ml-32 mr-32 mt-8  ">
-        <Banner />
+        <Banner src={banner2} />
       </section>
       <section>
         <Heading
@@ -74,6 +79,9 @@ export default function page() {
           height={112}
           className=" rounded-2xl"
         />
+      </section>
+      <section className="ml-32 mr-32 mt-8  ">
+        <Banner src={banner3} />
       </section>
     </>
   );

@@ -18,7 +18,7 @@ export default function ProductCard({ name, sex, age, price }) {
       <p>
         {price} <span>GEL</span>
       </p>
-      <p className="text-primary flex items-center gap-3 py-2 px-2 bg-primarybg mt-3">
+      <p className="text-primary flex items-center gap-3 py-2 px-2 bg-primarybg mt-3 mb-3">
         <Image src={present} alt="present-icon" width={20} height={20} />
         <span>
           <Image src={bulet} alt="bulet-icon" />
