@@ -1,6 +1,6 @@
 export default function Button({ content, fill }) {
   return fill ? (
-    <button className="h-11 text-neutral bg-primary  py-3 px-7 rounded-full">
+    <button className="h-11 text-white bg-primary  py-3 px-7 rounded-full">
       {content}
     </button>
   ) : (
