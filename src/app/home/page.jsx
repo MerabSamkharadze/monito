@@ -3,6 +3,7 @@ import banner from "@/public/images/banner.jpg";
 import Heading from "@/components/Heading";
 import Button from "@/components/Button";
 import CardsList from "@/components/CardsList";
+import Banner from "@/components/Banner";
 
 export default function page() {
   return (
@@ -40,8 +41,11 @@ export default function page() {
           h1={"Take a look at some of our pets"}
         />
       </section>
-      <section className="ml-32 mr-32">
+      <section className="ml-32 mr-32 mt-8">
         <CardsList />
+      </section>
+      <section className="ml-32 mr-32 mt-8  ">
+        <Banner />
       </section>
     </>
   );
