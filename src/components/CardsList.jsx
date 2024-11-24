@@ -56,6 +56,12 @@ export default function CardsList() {
       sex: "Female",
       age: "04 months",
     },
+    {
+      id: "10",
+      name: "MO310 - Border Collie red",
+      sex: "male",
+      age: "06 months",
+    },
   ];
 
   return (
